@@ -1,7 +1,5 @@
 (function ($) {
-  $(
-    ".archive.post-type-archive-product .woocommerce-loop-product__title a"
-  ).each(function () {
+  $(".archive.post-type-archive-product .woocommerce-loop-product__title a").each(function () {
     var obj = $(this);
     var text = obj.html();
     var parts = text.split(" ");
